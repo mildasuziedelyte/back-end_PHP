@@ -1,0 +1,17 @@
+{
+    "name": "milda/1223agurkai-copy0106",
+    "description": "Darzas",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mildasuziedelyte",
+            "email": "mildasuziedelyte@users.noreply.github.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Darzas\\": "classes"
+        }
+    }
+}
