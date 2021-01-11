@@ -15,7 +15,7 @@ class App {
     }
 
     public static function redirect($page){
-        header('Location: http://localhost/back-end_PHP/projektas-darzas/'. $page.'.php');
+        header('Location: http://localhost/back-end_PHP/projektas-darzas-oop/'. $page.'.php');
         exit;    
     }
 

@@ -61,9 +61,9 @@ if(isset($_POST['nuimtiVisaDerliu'])){
                 <div class="header-bottom">
                     <h3>Skynimas</h3>
                     <nav>
-                    <a class="selected" href="http://localhost/back-end_PHP/projektas-darzas/sodinimas.php">Sodinimas</a>
-                    <a href="http://localhost/back-end_PHP/projektas-darzas/auginimas.php">Auginimas</a>
-                    <a href="http://localhost/back-end_PHP/projektas-darzas/skynimas.php">Skynimas</a>
+                    <a class="selected" href="http://localhost/back-end_PHP/projektas-darzas-oop/sodinimas.php">Sodinimas</a>
+                    <a href="http://localhost/back-end_PHP/projektas-darzas-oop/auginimas.php">Auginimas</a>
+                    <a href="http://localhost/back-end_PHP/projektas-darzas-oop/skynimas.php">Skynimas</a>
                     </nav>
                 </div>
             </div>
