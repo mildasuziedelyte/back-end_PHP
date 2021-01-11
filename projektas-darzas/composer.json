@@ -9,6 +9,8 @@
     ],
     "require": {},
     "autoload": {
-        "classmap": ["classes/"]
+        "psr-4": {
+            "Darzas\\": "classes"
+        }
     }
 }

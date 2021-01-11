@@ -13,6 +13,8 @@ include __DIR__.'/vendor/autoload.php';
 // unset($_SESSION['agurku ID']);
 // unset($_SESSION['myVegetables']);
 
+use Darzas\App;
+
 App::createSession();
 
 //SODINIMO SCENARIJUS

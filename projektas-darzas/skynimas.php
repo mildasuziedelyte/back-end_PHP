@@ -10,6 +10,10 @@ include __DIR__.'/vendor/autoload.php';
 // include __DIR__.'/Agurkas.php';
 // include __DIR__.'/Pomidoras.php';
 
+use Darzas\App;
+use Darzas\Pomidoras;
+use Darzas\Agurkas;
+
 App::createSession();
 
 //Skynimo su input scenarijus

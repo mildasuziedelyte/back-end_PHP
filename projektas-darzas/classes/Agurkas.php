@@ -1,5 +1,10 @@
 <?php
 
+namespace Darzas;
+
+use Darzas\Darzove;
+use Darzas\Vegetable;
+
 class Agurkas extends Darzove implements Vegetable{
     protected $type = 'Agurkas';
 

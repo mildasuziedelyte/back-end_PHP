@@ -1,5 +1,10 @@
 <?php
 
+namespace Darzas;
+
+use Darzas\Pomidoras;
+use Darzas\Agurkas;
+
 class App {
 
     public static function createSession(){
@@ -24,7 +29,7 @@ class App {
         // _d($newVegetable->id, 'id');
         $_SESSION['myVegetables'][] = serialize($newVegetable);
         $_SESSION['ID']++;
-        App::redirect('sodinimas');
+        self::redirect('sodinimas');
 
     }
 
@@ -33,7 +38,7 @@ class App {
             $value = unserialize($value);
             if($value->id == $id){
                 unset($_SESSION['myVegetables'][$key]);
-                App::redirect('sodinimas');
+                self::redirect('sodinimas');
             }
         }
     }
@@ -47,7 +52,7 @@ class App {
         foreach ($_SESSION['myVegetables'] as $key => $value){
             $value = unserialize($value);
             $value->addVegetables();
-            App::save($value, $key);
+            self::save($value, $key);
         }
         self::redirect('auginimas');
     }

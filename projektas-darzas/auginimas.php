@@ -10,7 +10,10 @@ include __DIR__.'/vendor/autoload.php';
 // include __DIR__.'/Agurkas.php';
 // include __DIR__.'/Pomidoras.php';
 
+use Darzas\App;
+
 App::createSession();
+
 
 // AUGINIMO SCENARIJUS
 if (isset($_POST['auginti'])) {

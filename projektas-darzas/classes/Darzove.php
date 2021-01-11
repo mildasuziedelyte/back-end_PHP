@@ -1,5 +1,7 @@
 <?php
 
+namespace Darzas;
+
 abstract class Darzove{
     protected $id;
     protected $count;
