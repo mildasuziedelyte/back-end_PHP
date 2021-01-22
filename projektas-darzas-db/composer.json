@@ -1,0 +1,20 @@
+{
+    "name": "milda/1223agurkai-copy0106",
+    "description": "Darzas",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mildasuziedelyte",
+            "email": "mildasuziedelyte@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Darzas\\": "classes",
+            "Darzas\\Controller\\": "classes/controllers"
+        }
+    }
+}

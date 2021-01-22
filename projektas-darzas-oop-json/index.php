@@ -3,8 +3,8 @@
 use Darzas\App;
 
 define('DOOR_BELL', 'ring');
-define('INSTALL_FOLDER', '/back-end_PHP/projektas-darzas-oop/');
-define('URL', 'http://localhost/back-end_PHP/projektas-darzas-oop/');
+define('INSTALL_FOLDER', '/back-end_PHP/projektas-darzas-oop-json/');
+define('URL', 'http://localhost/back-end_PHP/projektas-darzas-oop-json/');
 define('DIR', __DIR__);
 
 // $uri = str_replace(INSTALL_FOLDER, '', $_SERVER['REQUEST_URI']);
